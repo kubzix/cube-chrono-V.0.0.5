@@ -1,0 +1,5 @@
+v.0.0.5
+This version added: 
+	- Display of the last solving time
+	- Average panel
+	- Style updatesheet

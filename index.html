@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de scramble</title>
+    <link rel="stylesheet" href="style.css">
+    <link id="icon" rel="shortcut icon" type="imagex/png" href="images/0017.ico">
+    <script src="contador/contadoor.js"></script>
+    
+</head> 
+<body onload="tamnhocubo()">
+  <header>
+    <ul>
+      <li><img src="images/0017.jpg" alt=""></li>
+      <li>
+        <select name="selcube" id="selcube" width="" onchange="tamnhocubo()" >
+          <option value="">escolher cubo</option>
+          <option id="cube2" value="2x2x2">2x2x2</option>
+          <option id="cube3" value="3x3x3" selected>3x3x3</option>
+          <option id="cube4" value="4x4x4" >4x4x4</option>
+        </select>
+      </li>
+      <li id="md">
+        <div id="media5"></div>
+        <div id="lSolve"></div>
+        <div id="media12"></div>
+      </li>
+      <li>
+        <div id="media100"></div>
+      </li>
+    </ul>
+    
+  </header>
+
+      <section id="scramble">
+       
+        <div id="res">
+           
+        </div>
+   
+    </section>
+
+    <section id="crono">
+    
+        <div id="cronometro">
+          
+          <p id="tempo">Precione espaço para iniciar o  Timer!</p>
+          
+        </div>
+        <div id="disparar" >
+          
+        </div>
+        
+      </section>
+    
+
+</body>
+</html>
