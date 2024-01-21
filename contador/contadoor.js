@@ -138,8 +138,11 @@ document.addEventListener('keydown' , function(evento){
         verificar()
     }
 })
-document.addEventListener('touchstart' , function(){
-    verificar()
+
+document.addEventListener('touchstart' , function(evento){
+    if(evento.key === "touchmove"){
+    }else{
+    verificar()}
 })
 var media5;  
 var media12;
