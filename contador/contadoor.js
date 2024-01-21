@@ -138,6 +138,9 @@ document.addEventListener('keydown' , function(evento){
         verificar()
     }
 })
+document.addEventListener('touchstart' , function(){
+    verificar()
+})
 var media5;  
 var media12;
 var media100; 
